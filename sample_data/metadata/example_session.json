@@ -1,0 +1,9 @@
+{
+  "session_id": "demo-session",
+  "source_language": "es",
+  "target_language": "en",
+  "speakers": [
+    "SPEAKER_00",
+    "SPEAKER_01"
+  ]
+}

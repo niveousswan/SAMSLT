@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the associated SAMSLT paper when publication metadata becomes available."
+title: "SAMSLT: Speaker-Aware Multi-Speaker Live Translation"
+type: software
+version: 0.3.0
+authors:
+  - family-names: "Zhai"
+    given-names: "Chunpeng"
+repository-code: "https://github.com/niveousswan/SAMSLT"

@@ -1,0 +1,9 @@
+models:
+  diarization: external
+  separation: external
+  speaker_encoder: ECAPA-TDNN
+  asr: external
+  mt: external
+  direct_s2st: optional
+  acoustic_synthesizer: external
+  neural_vocoder: external

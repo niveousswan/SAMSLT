@@ -1,0 +1,1 @@
+from .psvr import PersistentSpeakerVoiceRegistry

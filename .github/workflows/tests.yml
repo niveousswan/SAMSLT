@@ -1,0 +1,13 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: pip install -e ./commons -e ./samslt-audio -e ./samslt-overlap -e ./samslt-diarization -e ./samslt-speaker -e ./samslt-translation -e ./samslt-voice -e ./samslt-evaluation -e ./samslt
+      - run: pytest -q

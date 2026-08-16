@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite
+*.db
+*.wav
+*.flac
+*.mp3
+.env
+models/
+outputs/
+checkpoints/
+.cache/
+dist/
+build/
+*.egg-info/

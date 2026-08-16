@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "speaker_id",
+    "start",
+    "end",
+    "target_text",
+    "voice_id"
+  ],
+  "properties": {
+    "speaker_id": {
+      "type": "string"
+    },
+    "start": {
+      "type": "number"
+    },
+    "end": {
+      "type": "number"
+    },
+    "target_text": {
+      "type": "string"
+    },
+    "voice_id": {
+      "type": "string"
+    }
+  }
+}
